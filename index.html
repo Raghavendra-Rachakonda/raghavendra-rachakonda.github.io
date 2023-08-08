@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/portfolio.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-wrapper">
+            <div id="header-logo">
+                <a href="Home"><img src="images/lg.png"></a>
+                <a href="#home">RAGHAVENDRA RACHAKONDA</a>
+            </div>
+            <nav>
+                <div id="nav-menu">
+                    <button class="btn" onclick="window.location.href='#abt';">About Me</button>
+                    <button class="btn" onclick="window.location.href='#skills';">Skills</button>
+                    <button class="btn" onclick="window.location.href='#edu';">Education</button>
+                    <button class="btn" onclick="window.location.href='#exp';">Experience</button>
+                    <button class="btn" onclick="window.location.href='#contact';">Contact</button>
+                </div>
+                <div id="nav-menu-icon" onclick="openNav()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <aside id="nav-trans">
+        <div class="sidenav">
+            <div class="nav-head">
+                <div class="nav-menu-icon" onclick="closeNav()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>            
+            </div>
+            <div class="nav-menu">
+                <a href="#abt">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#edu">Education</a>
+                <a href="#exp">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </aside>
+    <main id="abt">
+        <section id="intro-page">
+            <div id="intro-text-wrapper">
+                <div>
+                    <p> Welcome To My Portfolio ! <br>
+                        I'm <span>Raghavendra Rachakonda</span> <br>
+                        A Front-End Developer
+                    </p>
+                    <p>
+                        I am an ambitious and innovative front-end developer with a passion for creating seamless and visually captivating user
+                        experiences. With a solid foundation in HTML, CSS, and JavaScript, I strive to craft elegant and responsive web
+                        applications that push the boundaries of modern web technologies.
+                    </p>
+                    <div class="resume">
+                        <a href="https://drive.google.com/file/d/1PaFCQLQsmpRVrH1lrTvx7Ol145GzYmoI/view?usp=sharing" download="Raghavendra_Resume" target="_blank">My Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div id="intro-pic-wrapper">
+                <div>
+                    <img src="images/A1.png">
+                </div>
+            </div>
+        </section>
+    </main>
+    <section>
+
+    </section>
+</body>
+</html>
